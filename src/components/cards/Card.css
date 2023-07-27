@@ -1,0 +1,52 @@
+.zoom__container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.zoom__title{
+    margin: 0;
+}
+
+.zoom__description{
+    margin: 15px auto;
+}
+
+.zoom__image{
+    border-radius: 10px;
+    cursor: pointer;
+    height: 600px;
+    width: 500px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.zoom__button-back{
+    width: 500px;
+    height: 70px;
+    font-size: 23px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 660px) {
+    .zoom__image{
+        height: 500px;
+        width: 400px;
+    }
+    .zoom__button-back{
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .zoom__image{
+        height: 400px;
+        width: 300px;
+        margin-top: 30px;
+    }
+    .zoom__button-back{
+        width: 300px;
+    }
+}
