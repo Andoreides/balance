@@ -1,5 +1,6 @@
 # Простой магазин
 
+https://internetshop-gules.vercel.app/
 
 ## Описание проекта
 
